@@ -703,6 +703,7 @@
         }
       }
     </style>
+    <script src="/nv.js"></script>
   </head>
   <body>
     <!--jnbar-->
@@ -1212,17 +1213,10 @@
               ms = sample.ms;
               model = sample.model;
             } else {
-              const chunks = top.map((i) => {
-                const c = IDX.c[i];
-                return {
-                  title: `RIC N°${c[0]} ${IDX.mat[c[0]]} · sección ${c[1]}${c[2] ? ' · ' + c[2] : ''} · pág. ${c[3]}`,
-                  text: c[4],
-                };
-              });
               const r = await fetch(NV + '/ric', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({question: q, chunks}),
+                body: JSON.stringify({question: q, ids: top}),
               });
               const d = await r.json();
               if (!r.ok || !d.ok) throw new Error(d.error || 'sin respuesta');
