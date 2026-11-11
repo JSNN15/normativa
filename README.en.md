@@ -1,5 +1,7 @@
 # RIC Lookup
 
+> **Previous version.** The current machine is [Consulta eléctrica](https://github.com/JSNN15/consulta-electrica), a chat that follows the conversation and checks every quote against the official text. This repository's index (`s/ric.json`, `s/vec.bin`) is still read by Consulta eléctrica and Supervisor normativo, so it must not be archived or renamed.
+
 **Ask about Chilean electrical regulations and get the exact citation: technical code (pliego), section and page of the official SEC PDF. A map shows where in the regulation the answer lives.**
 
 [![Open the tool](https://img.shields.io/badge/Try%20it-jsnn15.github.io%2Fnormativa-4da3ff?style=for-the-badge)](https://jsnn15.github.io/normativa/)

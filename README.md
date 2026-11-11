@@ -1,5 +1,7 @@
 # Consulta RIC
 
+> **Versión anterior.** La máquina actual es [Consulta eléctrica](https://github.com/JSNN15/consulta-electrica): un chat que sigue la conversación y compara cada cita con el texto oficial. El índice de pliegos de este repositorio (`s/ric.json` y `s/vec.bin`) sigue en uso: lo leen Consulta eléctrica y Supervisor normativo, así que este repositorio no se debe archivar ni renombrar.
+
 **Preguntas por la normativa eléctrica chilena y la respuesta trae la cita exacta: pliego, sección y página del PDF oficial de la SEC. Un mapa muestra en qué parte del reglamento está la respuesta.**
 
 [![Abrir la máquina](https://img.shields.io/badge/Probar-jsnn15.github.io%2Fnormativa-4da3ff?style=for-the-badge)](https://jsnn15.github.io/normativa/)
