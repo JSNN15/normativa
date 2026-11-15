@@ -1,10 +1,10 @@
 # Consulta RIC
 
-> **Versión anterior.** La máquina actual es [Consulta eléctrica](https://github.com/JSNN15/consulta-electrica): un chat que sigue la conversación y compara cada cita con el texto oficial. El índice de pliegos de este repositorio (`s/ric.json` y `s/vec.bin`) sigue en uso: lo leen Consulta eléctrica y Supervisor normativo, así que este repositorio no se debe archivar ni renombrar.
+> **Versión anterior.** La versión actual es [Consulta eléctrica](https://github.com/JSNN15/consulta-electrica): un chat que sigue la conversación y compara cada cita con el texto oficial. El índice de pliegos de este repositorio (`s/ric.json` y `s/vec.bin`) sigue en uso: lo leen Consulta eléctrica y Supervisor normativo, así que este repositorio no se debe archivar ni renombrar.
 
 **Preguntas por la normativa eléctrica chilena y la respuesta trae la cita exacta: pliego, sección y página del PDF oficial de la SEC. Un mapa muestra en qué parte del reglamento está la respuesta.**
 
-[![Abrir la máquina](https://img.shields.io/badge/Probar-jsnn15.github.io%2Fnormativa-4da3ff?style=for-the-badge)](https://jsnn15.github.io/normativa/)
+[![Abrir la herramienta](https://img.shields.io/badge/Probar-jsnn15.github.io%2Fnormativa-4da3ff?style=for-the-badge)](https://jsnn15.github.io/normativa/)
 ![NVIDIA Nemotron](https://img.shields.io/badge/NVIDIA-Nemotron%20Embed%20%2B%20Super-76b900?style=flat-square&logo=nvidia&logoColor=white)
 ![RAG](https://img.shields.io/badge/b%C3%BAsqueda-h%C3%ADbrida%20en%20el%20navegador-555?style=flat-square)
 ![Licencia](https://img.shields.io/badge/c%C3%B3digo-Apache--2.0-blue?style=flat-square)
@@ -86,4 +86,4 @@ Pliegos Técnicos Normativos RIC N°01 a N°19, Superintendencia de Electricidad
 ---
 
 <sub>Proyecto personal de **Julián Neira Nova**, ingeniero eléctrico con 10 años en faena · Servicio y Soluciones Tecnológicas DelaCruz SpA. Nada de lo publicado proviene de clientes ni de empleadores.
-[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las máquinas](https://github.com/JSNN15)</sub>
+[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las herramientas](https://github.com/JSNN15)</sub>
