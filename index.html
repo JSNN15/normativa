@@ -17,10 +17,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
     <style>
       :root {
         --bg: #0a0b0d;
@@ -29,14 +26,14 @@
         --line: #252a33;
         --fg: #ebeef2;
         --muted: #959cab;
-        --acc: #4da3ff;
+        --acc: #ff8e3c;
         --nv: #76b900;
         --hot: #ffd166;
         --ok: #3ccf7a;
         --cell: #1b1f26;
-        --display: 'Big Shoulders Display', 'Arial Narrow', Impact, sans-serif;
-        --sans: 'Work Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-        --mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+        --display: 'Geist', system-ui, sans-serif;
+        --sans: 'Geist', system-ui, -apple-system, 'Segoe UI', sans-serif;
+        --mono: 'Geist Mono', ui-monospace, Consolas, monospace;
         color-scheme: dark;
       }
       * {
@@ -104,11 +101,11 @@
       }
       h1 {
         font-family: var(--display);
-        font-weight: 800;
-        text-transform: uppercase;
-        font-size: clamp(2.2rem, 5vw, 3.6rem);
-        line-height: 0.9;
+        font-weight: 600;
+        font-size: clamp(2rem, 4.2vw, 3.1rem);
+        line-height: 1.04;
         margin: 0;
+        letter-spacing: -0.035em;
       }
       h1 em {
         font-style: normal;
@@ -609,6 +606,7 @@
         font-size: 2rem;
         color: var(--acc);
         line-height: 1;
+        letter-spacing: -0.02em;
       }
       footer.f {
         border-top: 1px solid var(--line);
@@ -721,7 +719,7 @@
         href="https://github.com/JSNN15/normativa"
         target="_blank"
         rel="noopener"
-        title="Ver el código de esta máquina en GitHub"
+        title="Ver el código en GitHub"
         ><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
           <path
             fill="currentColor"
@@ -744,26 +742,7 @@
       >
     </div>
     <!--/jnbar-->
-    <div class="vant" style="background:#2a1d0c;color:#f6d7b0;font:500 13px/1.4 system-ui,sans-serif;padding:8px 14px;text-align:center">Versión anterior, publicada como registro. La actual es <a href="../consulta-electrica/" style="color:#ffb46a;font-weight:700">Consulta eléctrica →</a></div>
-    <nav>
-      <div class="in">
-        <a class="brand" href="./"
-          ><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
-            <rect x="6" y="3" width="20" height="26" rx="2" fill="none" stroke="#4da3ff" stroke-width="2.2" />
-            <path d="M10 10h12M10 15h12M10 20h7" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" />
-            <path
-              d="M21 18l-3 5h3l-2 4"
-              stroke="#ffd166"
-              stroke-width="2"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            /></svg
-          >Consulta RIC</a
-        >
-        <a class="s" href="../"><span class="lg">Julián Neira Nova · </span>Portafolio →</a>
-      </div>
-    </nav>
+    <div class="vant" style="background:#2a1d0c;color:#f6d7b0;font:500 13px/1.4 system-ui,sans-serif;padding:8px 14px;text-align:center">Versión anterior, publicada como registro. La actual es <a href="../electrical_code_rag_2026/" style="color:#ffb46a;font-weight:700">Consulta eléctrica →</a></div>
 
     <header>
       <div class="in">
@@ -773,7 +752,7 @@
             Pregunta por los pliegos técnicos RIC de la SEC. La respuesta trae el pliego, la sección y la
             página del PDF oficial, y el mapa muestra dónde está en el reglamento.
           </p>
-          <p class="sub demo">Demo de portafolio y versión anterior: usa una API gratuita compartida, con cupo diario. Puede tardar o quedar sin cupo.</p>
+          <p class="sub demo">Versión anterior. Usa una API gratuita con cupo diario. Puede tardar o quedar sin cupo.</p>
         </div>
         <span class="nvb">búsqueda y respuesta con <b>NVIDIA Nemotron</b></span>
       </div>
